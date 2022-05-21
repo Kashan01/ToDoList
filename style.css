@@ -1,0 +1,94 @@
+html, body{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    background-color: #fecc49;
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    box-shadow: 0 10px 30px black;
+    border-radius:7px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+
+.toDos{
+    display: flex;
+    flex-direction: column-reverse  ;
+}
+
+#inputField{
+    width: 300px;
+    height: 46px;
+    color: orangered;
+    border: 1px solid black;
+    border-radius: 3px 0 0 3px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.click{
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#clicked{
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+#clicked:target{
+    width: 20%;
+    height: auto;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    transition: ease-in;
+    background-color: aquamarine;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 20px black;
+    border: none; 
+}
+
+span{
+    color: black;
+    float: right;
+}
+
+span a{
+    text-decoration: none;
+}
+
+span:hover{
+    color: rgb(60, 60, 60);
+}
+
+.paraStyling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(255, 51, 0);
+}

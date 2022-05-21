@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <!--  To Do Inuts -->
+    <div class="container">
+        <h1>To Do List</h1>
+        <input type="text" id="inputField" placeholder="List Anything"><button id="addToDo">+</button>
+    </div>
+
+    <!-- To Do Container -->
+    <div class="container toDos" id="toDoContainer"></div>
+    
+    <!-- Note -->
+    <a class="click" href="#clicked">❔</a>
+
+    <!-- Note Details -->
+    <p id="clicked">
+        <span>
+            <a href="#">✖</a>
+        </span><br>
+        Signle click for line through 😑<br>
+        Double click to delete 🙁
+    </p>
+
+    <script src="script.js"></script>  
+</body>
+
+</html>
